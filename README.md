@@ -35,7 +35,7 @@ Yes, these graphs are very easy to interpret and are suitable for this use case.
 
 # Problem 4:
 
-[{label="fig:pairplot"}](4.1.png)
+![1](41.png)
 
 Here, we would like to quantify the relation between gdp per capita and life expectancy over time. Using the available datasets we build a master dataset that contains both gdp and life expectancy, using this dataset we try to understand the relation and quantify it using graphs and modeling techniques. 
 
