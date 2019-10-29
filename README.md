@@ -1,10 +1,7 @@
 # DS5500-HW2
 
 # Problem 1:
-Manvita Markala
-Bishishta Mukherjee
-Konanki Sai Charan
-Romil Rathi
+Manvita Markala, Bishishta Mukherjee, Konanki Sai Charan, Romil Rathi
 
 # Problem 2:
 I have chosen the below visualization for comparison:
@@ -47,10 +44,12 @@ By building a simple linear regression model using log of gdp per capita, life e
 
 
 ![4](/44.JPG)
+
 From the above code snippet we can understand that rmse values obtained for train and test datasets are 7.46 and 7.5 respectively, which is an acceptable error value.
 
 
 ![3](/43.JPG)
+
 From the above 3d plot we can see the distribution of actual and predicted values, a good takeaway from this visualization is that there is a good overlap between actual and predicted values.
 
 How does autocorrelation impact our analysis:
@@ -59,19 +58,23 @@ Auto correlation is correlation of a signal with a delayed copy of itself as a f
 # Problem 5:
 
 ![1](/51.JPG)
+
 Here, we would like to quantify the relation between gdp per capita and child mortality. Using the available datasets we build a master dataset that contains both gdp and child mortality, using this dataset we try to understand the relation and quantify it using graphs and modeling techniques. 
 
 From the 1st graph we can say that there is no evident linear relation between gdp per capita and life expectancy, using the gdp and child mortality variables we create a scatter plot, using this we can interpret that linear relation does not exist between the variables, this can be quantified using further analysis. Hence, we could use log transform of gdp per capita to check if this could help us in getting better results.
 
 ![1](/52.JPG)
+
 By building a simple linear regression model using log of gdp per capita, child mortality, and time. By further understanding the results of this model we can quantify the relationship. R squared of the model is ~0.63, by which we can say that using logarithmic value of gdp, the linear model that has been built can explain relation between all these variables, but this relation is not strong enough. We can observe from the model that p values of log(gdp) and time are significant.
 
 
 ![1](/53.JPG)
+
 We can observe from the code snippet that RMSE values for train and test datasets are 47.5 and 49 respectively, these values can be further improved
 
 
 ![1](/54.JPG)
+
 From the above 3d plot we can see the distribution of actual and predicted values, a good takeaway from this visualization is that there exits an overlap between actual and predicted values but the overlap is not completely efficient.
 
 How does autocorrelation impact our analysis:
